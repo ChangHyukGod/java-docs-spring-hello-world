@@ -18,21 +18,4 @@ public class DemoApplication extends SpringBootServletInitializer {
 	String sayHello() {
 		return "Hello Azure Hi" ;
 	}
-	 	try{
-        	File file = new File("index.html");
-            BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-            writer.write("<h2>html의 제목</h2>");
-            writer.write("<div> 추가하고 싶은 내용들 ~~ </div>");
-            //변수추가하기
-            
-            String a = "추가할 변수";
-            
-            writer.write("~~~" + a + "~~~");
-
-            writer.close();
-
-        } catch(IOException e){
-            e.printStackTrace();
-        }
-
 }

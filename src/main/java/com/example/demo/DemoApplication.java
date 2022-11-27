@@ -18,9 +18,6 @@ public class DemoApplication extends SpringBootServletInitializer {
 		return "Hello Azure Hi" ;
 	}
 	
-	@RequestMapping("/")
-	string mapview(){
-		return <html>
 	<head>
 	<meta charset="utf-8"/>
 	<title>Kakao 지도 시작하기</title>
@@ -39,5 +36,5 @@ public class DemoApplication extends SpringBootServletInitializer {
 	</script>
 	</body>
 	</html>
-	}
+	
 }
